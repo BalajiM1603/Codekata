@@ -1,25 +1,11 @@
 #include <stdio.h>
-
 int main()
-
 {
-    
 char x;
-    
-   
-printf("Enter any character: ");
- 
 scanf("%c",&x);
-    
-    
 if (x>='a' && x<='z' ||  x>='A' && x<='Z')
-        
-printf("%c is a alphabet");
-    
+printf("Alphabet");
 else
-        
-printf("%c is not alphabet");
-    
+printf("No");
 return 0;
-
 }
