@@ -10,24 +10,28 @@ int num;
 // printf("enter the number:");
   
   scanf("%d",&num);
-   
+   if(num<0)
+  {
+      printf("Invalid");
+  }
+  else{
  if(num%2==0)
    
  {
        
- printf("the number is even");
+ printf("Even");
  
    }
    
- else
+ if(num%2!=0)
    
  {
         
-printf("the number is odd");
+printf("Odd");
   
+  }
   }
   
 return 0;
 
 }
-
