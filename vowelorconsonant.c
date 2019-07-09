@@ -6,26 +6,23 @@ int main()
    
  char x;
   
- char smallVowel, capitalVowel;
-   
- printf("Enter any character: ");
-   
  scanf("%c",&x);
-    
-  
- smallVowel = (x == 'a' || x == 'e' || x == 'i' || x== 'o' || x == 'u');
-    
-  
- capitalVowel = (x == 'A' || x == 'E' || x == 'I' || x == 'O' || x == 'U');
-  
- if (smallVowel || capitalVowel)
-        
- printf("%c is a vowel.", x);
-    
+ 
+ if((x>=65 && x<=90) || (x>=97 && x<=117))   
+  {
+ if(x == 65 || x == 69 || x == 73 || x== 79 || x == 85 || x==97 || x==101 || x==105 || x==111 || x==117)
+ {
+  printf("Vowel");
+ }
  else
-       
- printf("%c is a consonant.", x);
-   
- return 0; 
+ {    
+ printf("Consonant");
+ }
+  }
+  else
+  {
+      printf("Invalid");
+  }
+  return 0; 
 
 }
