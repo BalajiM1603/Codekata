@@ -7,8 +7,7 @@ int main()
   
 int year;
  
-  
-printf("Enter a year:");
+ 
   
 scanf("%d", &year);
  
@@ -17,30 +16,20 @@ if (year%400 == 0)
   
 { 
     
-printf("%d is a leap year.\n", year);
+printf("yes");
   
 }
   else if (year%100 == 0) 
   
 {
     
-printf("%d isn't a leap year.\n", year);
+printf("no");
   
 }
   else if (year%4 == 0) 
   
 {
     
-printf("%d is a leap year.\n", year);
+printf("yes");
   
 }
-  
-else 
-    
-printf("%d isn't a leap year.\n", year);  
-   
-  
-return 0;
-
-}
-
