@@ -1,7 +1,7 @@
 #include <stdio.h>
  
 
-int main()
+void main()
 
 {
   
@@ -38,7 +38,5 @@ else
 { 
 printf("no");  
 } 
-  
-return 0;
 
 }
