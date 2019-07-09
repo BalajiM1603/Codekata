@@ -7,7 +7,7 @@ int main()
     
 int num;
    
- printf("enter the number:");
+ 
   
   scanf("%d",&num);
   
@@ -15,7 +15,7 @@ int num;
    
  {
        
- printf("the number is positive");
+ printf("Positive");
   
   }
   
@@ -23,15 +23,15 @@ int num;
   
   {
       
-  printf("the number is negative");
+  printf("Negative");
  
    }
   
-  else
+ if(num==0)
   
   {
         
-printf("the number is neither positive nor negative");
+ printf("Invalid");
   
   }
 
