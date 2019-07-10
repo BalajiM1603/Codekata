@@ -4,7 +4,6 @@ int main()
 {
     int a[100],n,i,largest;
     scanf("%d",&n);
-    printf("enter the %d element in the array",n);
     for(i=0;i<n;i++)
         scanf("%d",&a[i]);
         largest=a[0];
