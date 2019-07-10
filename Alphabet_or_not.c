@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main()
 {
-char x;
-scanf("%c",&x);
-if (x>='a' && x<='z' ||  x>='A' && x<='Z')
+char c;
+scanf("%c",&c);
+if (c>='a' && c<='z' ||  c>='A' && c<='Z')
 printf("Alphabet");
 else
 printf("No");
