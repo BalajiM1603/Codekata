@@ -10,7 +10,8 @@ void print(string str)
 }
 int main()
 {
+	string str;
     cin>>str;
-    print("str");    
+    print(str);    
     return 0;
 }
