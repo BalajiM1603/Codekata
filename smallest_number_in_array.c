@@ -9,7 +9,7 @@ int main()
         largest=a[0];
         for(i=1;i<n;i++)
         {
-        if(largest<a[i])
+        if(largest>a[i])
         {
             largest=a[i];
         }
